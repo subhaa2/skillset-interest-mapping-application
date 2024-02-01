@@ -1,0 +1,8 @@
+.even-row {
+  background-color: lightgray; /* Change the background color as desired */
+}
+
+/* Define styles for odd rows */
+.odd-row {
+  background-color: white; /* Change the background color as desired */
+}

@@ -1,0 +1,54 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.editDrawer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 6px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  z-index: 2;
+  /* animation: slide-down 300ms ease-out forwards; */
+}
+
+/* @media (min-width: 768px) {
+    .modal {
+        width: 40rem;
+        left: calc(50% - 20rem);
+    }
+} */
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

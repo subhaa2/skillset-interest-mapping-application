@@ -1,0 +1,31 @@
+.maindiv {
+  padding: 10px;
+}
+
+.myComponent {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  /* Adjust the values according to your needs */
+  border: 4px solid;
+  border-color: var(--primary-light);
+  /* Set the variable based on your theme */
+}
+
+.myComponent .MuiDataGrid-cell:hover {
+  color: var(--primary-main);
+  /* Set the variable based on your theme */
+}
+
+.table {
+  height: 650px;
+  width: 90%;
+  margin: auto;
+}
+
+.search {
+  width: 250px;
+}
+
+.search-div {
+  padding-top: 10px;
+  padding-bottom: 25px;
+}

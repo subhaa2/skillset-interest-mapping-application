@@ -1,0 +1,105 @@
+.toolbar {
+  display: flex;
+  background: #0e6fdc;
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  padding: 0 20px;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--white);
+  margin-right: 20px;
+}
+
+.addButton,
+.filterButton {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  /* set width to height value */
+  background: none;
+  border: none;
+  transition: 250ms;
+  /* color: var(--white); */
+  color: #f9f6ee;
+}
+
+.addButton:hover,
+.filterButton:hover {
+  /* background: rgba(128, 128, 128, 0.8) */
+  background: #0c5fbc;
+}
+
+.toggleDisplayContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+}
+
+.borderLeft {
+  border-left: 2px solid #f9f6ee;
+  width: 20px;
+  height: 26px;
+}
+
+.toggleDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggleDisplay button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9f6ee;
+  padding: 2px;
+  transition: 250ms;
+  border: none;
+  background: none;
+  /* border: 2px solid var(--blue);
+    border-radius: 5px; */
+}
+
+.toggleDisplay button:hover {
+  background: #f9f6ee;
+  color: #0e6fdc;
+}
+
+.toggleDisplay button.active {
+  background: #0c5fbc;
+  color: #f9f6ee;
+}
+
+.toggleDisplay button:nth-child(odd) {
+  padding-right: 5px;
+  border-top: 2px solid #f9f6ee;
+  border-left: 2px solid #f9f6ee;
+  border-bottom: 2px solid #f9f6ee;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.toggleDisplay button:nth-child(even) {
+  border-top: 2px solid #f9f6ee;
+  border-right: 2px solid #f9f6ee;
+  border-bottom: 2px solid #f9f6ee;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 5px;
+}

@@ -1,0 +1,60 @@
+.editDrawer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 6px;
+}
+
+form {
+  padding: 20px;
+}
+
+form h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  margin-bottom: 12px;
+}
+
+.inputBox {
+  /* height: 30px !important; */
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cancelButton,
+.updateButton {
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.cancelButton {
+  background: none;
+  border: 2px solid var(--blue);
+  margin-right: 20px;
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.updateButton {
+  background: var(--blue);
+  color: #fff;
+  border: none;
+}

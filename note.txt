@@ -1,0 +1,19 @@
+.babelrc transpile ES6 to ES5 for older Node.js versions (if I am not wrong)
+  "type": "module", to use ES6 instead of ES5 for server.js
+
+
+"dev": "nodemon server.js" in package.json allows you to run 'npm run dev' instead of nodemon server.js
+
+
+.env prevents sensitive data from being shared.
+Do not push .env to git
+Switch between DB_Environment ('Azure','Local') depending on which database you want to use
+
+Commands:
+
+'cd client' => enters /client directory
+'cd server' => entere /server directory
+'cd ..' => enters ../ (parent) directory
+root folder: 'npm run dev' => run client & server 
+client folder: 'npm start' => run client only
+server folder: 'npm run dev' => run server only

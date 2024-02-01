@@ -1,0 +1,182 @@
+hr {
+  border: none;
+  height: 1px;
+  background-color: #bbb;
+  margin: 0;
+}
+
+.card-wrapper {
+  width: 400px;
+  height: 300.8px;
+  /* background-color: aquamarine; */
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.card {
+  max-width: inherit;
+  line-height: normal;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.header-wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-wrapper p {
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.editIcon,
+.deleteIcon {
+  /* padding: 2px; */
+  cursor: pointer;
+}
+
+.editIcon {
+  color: var(--blue);
+}
+
+.deleteIcon {
+  margin-left: 10px;
+  color: var(--red);
+}
+
+.row-wrapper,
+.teacher-wrapper {
+  display: flex;
+  padding: 6px 15px;
+}
+
+.row-wrapper {
+  justify-content: space-between;
+}
+
+.col1-wrapper,
+.col2-wrapper {
+}
+
+.icon {
+  width: 32px !important;
+  height: 32px !important;
+  color: #9699c0;
+}
+
+.col1-wrapper div,
+.col2-wrapper div,
+.teacher-wrapper div {
+  margin-left: 10px;
+}
+
+.col1-wrapper div,
+.col2-wrapper div {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.teacher-wrapper div {
+  width: calc(100% - 42px);
+}
+
+.col1-wrapper,
+.col2-wrapper {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.row-wrapper p,
+.teacher-wrapper p {
+  font-size: 13px;
+  margin-bottom: 0px;
+  color: #9699c0;
+}
+
+.row-wrapper h3,
+.teacher-wrapper h3 {
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+/* 
+.company_role-wrapper h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+} */
+
+.teacher-wrapper h3 {
+  width: 100%;
+}
+
+.description-wrapper {
+  padding: 10px 15px 15px;
+}
+
+.description-wrapper p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  /* Number of lines ^ */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.description-wrapper.active {
+  padding: 10px 15px 15px;
+}
+
+.description-wrapper.active p {
+  -webkit-line-clamp: 9;
+  /* Number of lines ^ */
+  /* padding: 10px 15px 15px; */
+}
+
+.infoIcon {
+  float: left;
+  margin-right: 10px;
+  /* padding: 0px 10px 5px 0; */
+}
+
+.detailsButton-wrapper {
+}
+
+.detailsButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 40px;
+  background-color: var(--blue);
+  color: #fff;
+  border: none;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 880px) {
+  .card-wrapper {
+    max-width: 300px;
+  }
+}

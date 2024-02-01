@@ -1,0 +1,52 @@
+/* .admin-menu-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+} */
+
+.menu-button {
+  cursor: pointer;
+  font-size: 40px;
+
+  color: #1e56aa;
+  /* Add padding to make it easier to click */
+}
+
+.admin-menu-wrapper {
+  position: fixed;
+  top: 0;
+  right: -200px;
+  /* Initially hidden off-screen */
+  background-color: #fff;
+  height: 100%;
+  /* Full height */
+  width: 200px;
+  /* Adjust the width as needed */
+  transition: right 0.3s ease;
+  /* Add a transition effect for sliding */
+}
+
+.admin-menu-bar {
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.admin-menu-wrapper.open {
+  left: 0;
+  /* Slide the menu into view */
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  width: 65px;
+}
+.logout {
+  width: 50px;
+}

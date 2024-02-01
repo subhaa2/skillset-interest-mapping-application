@@ -1,0 +1,78 @@
+.form {
+  border-width: 2px;
+  border-color: #1e56aa;
+  border-style: solid;
+}
+.formText {
+  font-size: 1cm;
+  color: #e11212;
+}
+.qboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.boxes {
+  width: 48%; /* Adjust the width to leave space for margins and ensure 2 columns */
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 10px;
+  border-width: 1px;
+  border-color: #d82020;
+  border-style: solid;
+  border-radius: 5px;
+}
+/* ... other styles ... */
+
+.customTextField {
+  width: 80%;
+  color: white;
+}
+
+.customTextField input {
+  background-color: lightgrey;
+  color: white;
+  border: none;
+}
+
+.customInterestField {
+  width: 70%;
+  height: 70px;
+}
+
+.customInterestField input {
+  outline: none;
+  background-color: lightgrey;
+  color: white;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editbutton {
+  width: 100px;
+  border: none;
+  background: #1e56aa !important;
+  color: white !important;
+  padding: 6px 12px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.inputbuttons {
+  width: 100px;
+  border: none;
+  background: #1e56aa !important;
+  color: white !important;
+  padding: 6px 12px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  justify-content: center;
+}

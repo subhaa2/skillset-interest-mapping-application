@@ -1,0 +1,58 @@
+.deletePopup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.warningIcon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: rgba(204, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+.warningIcon-wrapper svg {
+  width: 35px;
+  height: 35px;
+  color: var(--red);
+}
+
+.p,
+.h2 {
+  text-align: center;
+  /* technically not needed since we already align-items: center; in parent */
+}
+
+.p {
+  margin: 20px 0 15px;
+}
+
+.deleteButton,
+.cancelButton {
+  width: calc(100% - 40px);
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: var(--red);
+  color: #fff;
+  margin: 20px 0 10px;
+}
+
+.cancelButton {
+  background: none;
+  border: var(--gray) 2px solid;
+}

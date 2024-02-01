@@ -1,0 +1,29 @@
+{
+  "name": "skillset-interest-mapping-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "prettier": "npx prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armisticez/skillset-interest-mapping-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Armisticez/skillset-interest-mapping-application/issues"
+  },
+  "homepage": "https://github.com/Armisticez/skillset-interest-mapping-application#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "prettier": "3.2.1"
+  }
+}

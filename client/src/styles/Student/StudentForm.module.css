@@ -1,0 +1,90 @@
+.form {
+  border-width: 2px;
+  border-color: #1e56aa;
+  border-style: solid;
+  margin: 20px;
+}
+.formText {
+  font-size: 1cm;
+  color: #e11212;
+  margin: 10px;
+}
+.qboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.boxes {
+  width: 45%; /* Adjust the width to leave space for margins and ensure 2 columns */
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 10px;
+  border-width: 1px;
+  border-color: #d82020;
+  border-style: solid;
+  border-radius: 5px;
+}
+/* ... other styles ... */
+
+/* .customTextField {
+  width: 80%;
+  height:20px !important;
+  color: white;
+}
+
+.customTextField input {
+  background-color: lightgrey;
+  color: white;
+  height:20px !important;
+  border: none;
+} */
+/* .smallerTextField {
+  width: 150px; /* Adjust the width as per your requirement */
+/* Adjust the height as per your requirement */
+/*font-size: 14px; /* Adjust the font size as per your requirement */
+/*background-color: lightgrey;
+  color: white;
+  border: none;
+} */
+
+.customInterestField {
+  width: 70%;
+  height: 70px;
+}
+
+.customInterestField input {
+  outline: none;
+  background-color: lightgrey;
+  color: white;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editbutton {
+  width: 100px;
+  border: none;
+  background: #1e56aa !important;
+  color: white !important;
+  padding: 6px 12px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.inputbuttons {
+  width: 100px;
+  border: none;
+  background: #1e56aa !important;
+  color: white !important;
+  padding: 6px 12px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  justify-content: center;
+}

@@ -1,0 +1,19 @@
+.teacherContainer h2 {
+  text-align: center;
+  padding-top: 100px;
+  padding: 100px 0px 50px 0px;
+}
+
+.Stack {
+  justify-content: center;
+}
+
+.Box {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 250;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  gap: 16px;
+}
