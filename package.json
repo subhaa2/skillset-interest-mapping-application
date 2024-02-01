@@ -6,7 +6,7 @@
   "scripts": {
     "client": "npm start --prefix client",
     "server": "npm run dev --prefix server",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "npm install --prefix server && npm install --prefix client && npm run build --prefix client && npm run start --prefix server",
     "prettier": "npx prettier . --write"
   },
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Armisticez/skillset-interest-mapping-application#readme",
   "dependencies": {
+    "client": "^0.0.1",
     "concurrently": "^8.2.2",
     "nodemon": "^3.0.3"
   },
